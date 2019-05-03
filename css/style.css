@@ -47,7 +47,7 @@ body {
 }
 
 .titleMessage .heading p {
-	color: #bfbfbf;
+	color: #d0d0d0;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 100;
     letter-spacing: 7px;
@@ -72,7 +72,7 @@ body {
 
 .skillsSection, 
 .contactSection {
-	background-color: #00b894;
+	background-color: #589a8c;
 	color: #fff;
 }
 
@@ -96,7 +96,7 @@ body {
 }
 
 .chart .percent {
-	color: #000;
+	color: #2f2f2f;
 	line-height: 152px;
 	display: inline-block;
 	font-size: 32px;
@@ -140,7 +140,7 @@ body {
 	font-size: 56px;
 	margin-bottom: 10px;
 	font-weight: 400;
-	color:#00b894;
+	color: #589a8c;
 }
 
 .squareContent h3 {
@@ -171,7 +171,7 @@ body {
 
 .contactButton:hover {
 	text-decoration: none;
-	color: #00b894;
+	color: #589a8c;
 	background-color: #fff; 
 }
 
@@ -180,15 +180,18 @@ body {
 	border: 1px solid #bcd3c7;
 	padding: 10px 18px;
 	display: block;
+    text-decoration: none;
 }
+
+
 
 .filter li {
 	display: inline-block;
 }
 
 .filter .current {
-	background-color: #00b894;
-	border-color: #00b894;
+	background-color: #589a8c;
+	border-color: #579387;
 	color: #fff;
 }
 
@@ -247,7 +250,7 @@ body {
 .items a {
 	width: 40px;
     height: 40px;
-    background-color: #00b894;
+    background-color: #589a8c;
     position: relative;
     display: inline-block;
 
@@ -311,7 +314,7 @@ body {
 }
 
 .copyrightSection {
-	background-color: #000;
+	background-color: #343434;
 	color: #fff;
 	padding: 30px 5px;
 }
@@ -321,7 +324,7 @@ body {
 }
 
 #navigation {
-	background: #00b894;
+	background: #589a8c;
 	padding: 20px 10px;
 	z-index: 100;
 	width: 100%;
@@ -365,5 +368,12 @@ body {
 	height: 100%;
 	background: url(../img/loader.gif) center center no-repeat;
 }
+
+@media (max-width: 47rem) {
+  .description {
+    margin-top: 50px;
+  }
+
+
 
 
