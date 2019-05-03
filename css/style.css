@@ -286,11 +286,18 @@ body {
 .items .openButton {
 	float: left;
 	left: -200px;
+    top: -20px;
 }
 
 .items .projectLink {
 	float: right;
 	right: -200px;
+    top: -20px;
+}
+
+.items .githubLink {
+	float: center;
+	bottom: -200px;
 }
 
 .items .item:hover .openButton {
@@ -299,6 +306,10 @@ body {
 
 .items .item:hover .projectLink {
 	right: 0px;
+}
+
+.items .item:hover .githubLink {
+	bottom: 12px;
 }
 
 .items .item:hover img {
