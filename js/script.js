@@ -69,16 +69,16 @@ $(document).ready(function() {
 		    });
 		}
     
-        if(!countUpFinished && window.pageYOffset > statsTopOffset - $(window).height() + 200) {
-            $(".counter").each(function() {
-                var element = $(this);
-                var endVal = parseInt(element.text());
-
-                element.countup(endVal);
-            })
-
-            countUpFinished = true;
-        }
+//        if(!countUpFinished && window.pageYOffset > statsTopOffset - $(window).height() + 200) {
+//            $(".counter").each(function() {
+//                var element = $(this);
+//                var endVal = parseInt(element.text());
+//
+//                element.countup(endVal);
+//            })
+//
+//            countUpFinished = true;
+//        }
     });
 
     $("[data-fancybox]").fancybox();
